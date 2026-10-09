@@ -107,3 +107,28 @@ Kết quả nằm ở `reports/survey-about-world-model.md` cùng `.sources.json
 - Mỗi lần chạy tốn token LLM và thời gian sandbox. `tokens` trong `meta.json` chỉ đếm tin nhắn của lead, chưa gồm subagent, nên chi phí thật cao hơn. `open_sandbox()` luôn dừng và xóa sandbox khi kết thúc, kể cả khi lỗi. Đừng bỏ qua nó.
 - **Không đưa bí mật vào sandbox.** Sandbox không ngăn được prompt injection hay việc đẩy dữ liệu ra mạng; một trang web độc hại có thể khiến agent chạy lệnh bên trong sandbox. Vì vậy mọi công cụ gọi mạng và mọi khóa ở lại phía host.
 - Nội dung lấy từ web là **dữ liệu không đáng tin**: agent không được làm theo chỉ dẫn nằm trong đó.
+
+## 8. Cấu trúc và cách đọc thư mục `reports/`
+
+Mỗi chủ đề nghiên cứu khi hoàn thành sẽ sinh ra bộ 3 tệp tương ứng trong `reports/`:
+
+1. **`<slug>.md`**: Báo cáo nghiên cứu khoa học tổng hợp bằng tiếng Anh, tuân thủ nghiêm ngặt cấu trúc `REPORT_TEMPLATE.md`:
+   - `## TL;DR`: Các phát hiện chính kèm trích dẫn `[n]`.
+   - `## Background`: Định nghĩa nền tảng và bối cảnh.
+   - Các phần theo chủ đề (`Theme 1 .. k`): So sánh, tổng hợp đa chiều từ các bài báo.
+   - `## Trends and open problems`: Xu hướng nghiên cứu 2 năm gần nhất và các bài toán mở.
+   - `## References`: Danh sách tài liệu tham khảo được sinh tự động, mỗi dòng trỏ về 1 URL thật.
+2. **`<slug>.sources.json`**: Danh mục toàn bộ các bài báo và trang web được trích dẫn trong báo cáo:
+   - Định dạng: Mảng JSON gồm `{n, id, url, title, date, source}`.
+   - Các họ nguồn (`source`): `arxiv`, `hf-daily`, `hf-search`, `web`.
+3. **`<slug>.meta.json`**: Bằng chứng thống kê thực thi phục vụ chấm điểm tự động:
+   - `model`: Tên mô hình LLM sử dụng.
+   - `elapsed_s`: Thời gian chạy (giây).
+   - `subagent_calls`: Số lần Lead Agent giao việc cho Subagent qua công cụ `task` (yêu cầu $\ge 3$).
+   - `n_sources`: Tổng số lượng nguồn được trích dẫn trong bài.
+   - `source_families`: Danh sách các họ nguồn khác nhau có trong bài (yêu cầu $\ge 3$ họ).
+   - `tool_calls` và `tokens`: Thống kê số lượt gọi công cụ và token sử dụng.
+
+### Kết quả nghiệm thu 5 chủ đề:
+- Toàn bộ 5 chủ đề trong `topics.md` đều đạt chuẩn $\ge 3$ subagent calls, $\ge 3$ source families và vượt qua 100% kiểm định `check_citations.py` và `self_check.py`.
+
