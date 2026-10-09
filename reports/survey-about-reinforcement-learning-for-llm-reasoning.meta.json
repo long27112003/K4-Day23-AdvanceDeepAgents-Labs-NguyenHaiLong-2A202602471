@@ -1,0 +1,24 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "elapsed_s": 604.2,
+  "subagent_calls": 6,
+  "tool_calls": {
+    "write_todos": 3,
+    "task": 6,
+    "read_file": 5,
+    "write_file": 5,
+    "execute": 12,
+    "edit_file": 2
+  },
+  "tokens": {
+    "input": 263862,
+    "output": 7344
+  },
+  "topic": "survey about reinforcement learning for LLM reasoning",
+  "n_sources": 14,
+  "source_families": [
+    "hf-daily",
+    "hf-search",
+    "web"
+  ]
+}

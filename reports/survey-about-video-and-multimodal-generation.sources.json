@@ -1,0 +1,90 @@
+[
+  {
+    "n": 1,
+    "id": "2609.25611",
+    "url": "https://arxiv.org/abs/2609.25611",
+    "title": "Qwen3.8-Omni: Towards Native Omni-Modal Agents",
+    "date": "2026-09-22",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2606.00133",
+    "url": "https://arxiv.org/abs/2606.00133",
+    "title": "World Models: A Comprehensive Survey of Architectures, Methodologies, Reasoning Paradigms, and Applications",
+    "date": "2026-05-28",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2607.28394",
+    "url": "https://arxiv.org/abs/2607.28394",
+    "title": "Hand-Object Interaction in the Age of Large Foundation Models: Reconstruction, Generation, and Embodied Transfer",
+    "date": "2026-07-30",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "2510.17519",
+    "url": "https://arxiv.org/abs/2510.17519",
+    "title": "MUG-V 10B: High-efficiency Training Pipeline for Large Video Generation Models",
+    "date": "2026-09-15",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "2609.89284",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_Towards_Human-Centered_and_Efficient_Video_Synthesis_A_Survey_of_Multimodal_Diffusion_Models_CVPR_2026_paper.pdf",
+    "title": "Towards Human-Centered and Efficient Video Synthesis: A Survey of Multimodal Diffusion Models",
+    "date": "2026-09-13",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "2512.09299",
+    "url": "https://huggingface.co/papers/2512.09299",
+    "title": "VABench: A Comprehensive Benchmark for Audio-Video Generation",
+    "date": "2025-12-10",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2411.13503",
+    "url": "https://huggingface.co/papers/2411.13503",
+    "title": "VBench++: Comprehensive and Versatile Benchmark Suite for Video Generative Models",
+    "date": "2024-11-20",
+    "source": "hf-search"
+  },
+  {
+    "n": 8,
+    "id": "2604.06757",
+    "url": "https://huggingface.co/papers/2604.06757",
+    "title": "FlowInOne: Unifying Multimodal Generation as Image-in, Image-out Flow Matching",
+    "date": "2026-04-08",
+    "source": "hf-daily"
+  },
+  {
+    "n": 9,
+    "id": "2606.17906",
+    "url": "https://arxiv.org/abs/2606.17906",
+    "title": "WAM-RL: World-Action Model Reinforcement Learning with Reconstruction Rewards and Online Video SFT",
+    "date": "2026-06-16",
+    "source": "arxiv"
+  },
+  {
+    "n": 10,
+    "id": "2504.04907",
+    "url": "https://huggingface.co/papers/2504.04907",
+    "title": "Video-Bench: Human-Aligned Video Generation Benchmark",
+    "date": "2025-04-07",
+    "source": "hf-search"
+  },
+  {
+    "n": 11,
+    "id": "2609.13347",
+    "url": "https://arxiv.org/abs/2609.13347",
+    "title": "PiMiX 2.02: Toward AI-Driven Data Fusion in Radiographic Imaging and Tomography",
+    "date": "2026-09-11",
+    "source": "arxiv"
+  }
+]

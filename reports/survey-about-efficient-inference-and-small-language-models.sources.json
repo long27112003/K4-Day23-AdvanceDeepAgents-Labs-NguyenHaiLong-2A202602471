@@ -1,0 +1,58 @@
+[
+  {
+    "n": 1,
+    "id": "paper1",
+    "url": "https://arxiv.org/abs/paper1",
+    "title": "Foundational Architectures for Small Language Models",
+    "date": "2023-01-15",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "paper3",
+    "url": "https://huggingface.co/papers/paper3",
+    "title": "Efficient Benchmarks for Language Models",
+    "date": "2023-03-05",
+    "source": "hf-daily"
+  },
+  {
+    "n": 3,
+    "id": "paper2",
+    "url": "https://huggingface.co/papers/paper2",
+    "title": "Quantization Techniques in SLMs",
+    "date": "2023-02-10",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "paper5",
+    "url": "https://arxiv.org/abs/paper5",
+    "title": "Optimization Techniques for Inference",
+    "date": "2023-04-01",
+    "source": "arxiv"
+  },
+  {
+    "n": 5,
+    "id": "paper6",
+    "url": "https://huggingface.co/papers/paper6",
+    "title": "Performance Metrics for SLMs",
+    "date": "2023-04-15",
+    "source": "hf-search"
+  },
+  {
+    "n": 6,
+    "id": "paper4",
+    "url": "https://www.example.com/paper4",
+    "title": "Applications of Small Language Models",
+    "date": "2023-03-20",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "paper7",
+    "url": "https://www.example.com/paper7",
+    "title": "Resource-Constrained Applications of SLMs",
+    "date": "2023-04-30",
+    "source": "web"
+  }
+]

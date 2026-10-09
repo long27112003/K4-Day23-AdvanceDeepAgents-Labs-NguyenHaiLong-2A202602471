@@ -139,6 +139,8 @@ def main(topic):
 
     topic = topic.strip()
     model = make_model()
+    if hasattr(model, "max_tokens"):
+        model.max_tokens = 4096
     model_name = getattr(model, "model_name", None) or getattr(model, "model", None) or os.getenv("LAB_MODEL", "unknown")
     start = time.monotonic()
 

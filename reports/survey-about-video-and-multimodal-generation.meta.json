@@ -1,0 +1,26 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "elapsed_s": 163.5,
+  "subagent_calls": 5,
+  "tool_calls": {
+    "write_todos": 6,
+    "write_file": 6,
+    "task": 5,
+    "ls": 1,
+    "read_file": 5,
+    "execute": 8,
+    "edit_file": 2
+  },
+  "tokens": {
+    "input": 260791,
+    "output": 6571
+  },
+  "topic": "survey about video and multimodal generation",
+  "n_sources": 11,
+  "source_families": [
+    "arxiv",
+    "hf-daily",
+    "hf-search",
+    "web"
+  ]
+}

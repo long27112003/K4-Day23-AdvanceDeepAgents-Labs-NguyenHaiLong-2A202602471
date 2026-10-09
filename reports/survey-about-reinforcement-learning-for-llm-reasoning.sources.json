@@ -1,0 +1,108 @@
+[
+  {
+    "n": 1,
+    "id": "2505.11711",
+    "url": "https://huggingface.co/papers/2505.11711",
+    "title": "Reinforcement Learning Finetunes Small Subnetworks in Large Language Models",
+    "date": "2025-05-16",
+    "source": "hf-search"
+  },
+  {
+    "n": 2,
+    "id": "2312.05657",
+    "url": "https://huggingface.co/papers/2312.05657",
+    "title": "Leveraging Reinforcement Learning and Large Language Models for Code Optimization",
+    "date": "2023-12-09",
+    "source": "hf-search"
+  },
+  {
+    "n": 3,
+    "id": "2302.06692",
+    "url": "https://huggingface.co/papers/2302.06692",
+    "title": "Guiding Pretraining in Reinforcement Learning with Large Language Models",
+    "date": "2023-02-13",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2507.13158",
+    "url": "https://huggingface.co/papers/2507.13158",
+    "title": "Inverse Reinforcement Learning Meets Large Language Model Post-Training: Basics, Advances, and Opportunities",
+    "date": "2025-07-17",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2509.08827",
+    "url": "https://huggingface.co/papers/2509.08827",
+    "title": "A Survey of Reinforcement Learning for Large Reasoning Models",
+    "date": "2025-09-10",
+    "source": "hf-search"
+  },
+  {
+    "n": 6,
+    "id": "2309.17176",
+    "url": "https://huggingface.co/papers/2309.17176",
+    "title": "RLAdapter: Bridging Large Language Models to Reinforcement Learning in Open Worlds",
+    "date": "2023-09-29",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "url": "https://huggingface.co/learn/llm-course/en/chapter12/2",
+    "title": "Introduction to Reinforcement Learning and its Role in LLMs",
+    "date": "N/A",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "url": "https://dl.acm.org/doi/full/10.1145/3834858",
+    "title": "A Technical Survey of Reinforcement Learning Techniques for Large Language Models",
+    "date": "N/A",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "url": "https://www.ibm.com/think/topics/llm-reinforcement-learning",
+    "title": "LLM Reinforcement Learning | IBM",
+    "date": "N/A",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "url": "https://proceedings.mlr.press/v202/du23f/du23f.pdf",
+    "title": "Guiding Pretraining in RL with LLMs",
+    "date": "N/A",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "67-abdulhai25a",
+    "url": "https://proceedings.mlr.press/v267/abdulhai25a.html",
+    "title": "LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models",
+    "date": "2025-10-06",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "2609.35433",
+    "url": "https://huggingface.co/papers/2609.35433",
+    "title": "ReSPO: Reshaped Sequence Policy Optimization for Gradient Starvation in Off-Policy Learning",
+    "date": "2026-09-28",
+    "source": "hf-daily"
+  },
+  {
+    "n": 13,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/537d5aa768c2d534016a4d06f87bc8fb-Paper-Conference.pdf",
+    "title": "Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?",
+    "date": "N/A",
+    "source": "web"
+  },
+  {
+    "n": 14,
+    "url": "https://arxiv.org/html/2403.04642v1",
+    "title": "Teaching Large Language Models to Reason with Reinforcement Learning",
+    "date": "2024-03-07",
+    "source": "web"
+  }
+]
