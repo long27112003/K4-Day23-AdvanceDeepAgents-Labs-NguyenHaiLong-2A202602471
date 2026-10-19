@@ -1,5 +1,7 @@
 # Deep Research Agent (Deep Agents + Sandbox)
 
+**Học viên:** Nguyễn Hải Long · **Mã học viên:** 2A202602471
+
 Lab dựng một **hệ thống deep research đa tác tử**: người dùng chỉ cần nhập một chủ đề (ví dụ `survey about world model`), hệ thống tự lập kế hoạch, giao việc cho nhiều subagent, tìm tài liệu trên arXiv, Hugging Face và web, rồi viết một **báo cáo có trích dẫn**.
 
 Hình thức: **bài thực hành cá nhân**. Ngôn ngữ lập trình: Python 3.11 trở lên.
